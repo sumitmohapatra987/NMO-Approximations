@@ -16,9 +16,9 @@ $$
 - **Hyperbolic Traveltime Relation:**  
   The time-offset relationship in seismic data follows a hyperbolic curve:
 
-  $$
-  T(x) = \sqrt{T_0^2 + \left( \frac{x}{V_{rms}} \right)^2 }
-  $$
+$$
+T(x) = \sqrt{T_0^2 + \left( \frac{x}{V_{rms}} \right)^2 }
+$$
 
 - **Approximation Methods:**
     1. **Taylor Approximation:**  
@@ -38,4 +38,4 @@ $$
 To run this notebook, install the following Python libraries:
 
 ```bash
-pip install numpy scipy matplotlib plotly tqdm
+pip install numpy scipy matplotlib plotly Decimal tqdm
