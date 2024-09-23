@@ -1,0 +1,101 @@
+# run model : Model 4
+
+Plot Parameters
+---------------------------------------------------------
+Initial Incident Angle: 1
+Increment in Incident Angle: 0.1
+---------------------------------------------------------
+
+Models
+---------------------------------------------------------
+Model 1
+model_name: 2_Layer
+velocities: [1, 1.5]
+thicknesses: [1, 1.5]
+n_value: 100
+
+Model 2
+model_name: Marschall_1975
+velocities: [2, 3, 4, 5]
+thicknesses: [1.0, 1.5, 2.0, 2.5]
+n_value: 100
+
+Model 3
+model_name: Four_layer_model
+velocities: [2, 3, 3.5, 4]
+thicknesses: [2.5, 1.0, 0.8, 1.3]
+n_value: 100
+
+Model 4
+model_name: Cooper_basin
+velocities: [1.590, 2.023, 2.000, 2.129, 3.132, 3.223, 5.250, 3.587, 4.787]
+thicknesses: [0.413, 0.301, 0.790, 0.594, 0.330, 0.248, 0.324, 0.334, 0.459]
+n_value: 100
+
+Model 5
+model_name: Dunkin_1973
+velocities: [2.13, 2.29, 2.44, 2.74, 2.59, 3.05, 3.35, 3.20, 3.66, 3.35, 4.57, 5.49, 4.57, 5.18, 5.49, 6.10]
+thicknesses: [0.18, 0.30, 0.46, 0.27, 0.26, 0.46, 0.34, 0.32, 0.36, 0.17, 0.46, 0.27, 0.46, 0.52, 0.55, 0.72]
+n_value: 300
+
+Model 6
+model_name: 3_Layer
+velocities: [1, 1.5, 3]
+thicknesses: [1, 1.5, 2]
+n_value: 100
+
+Model 7
+model_name: KGB1
+velocities: [1.60, 1.69, 1.96, 2.30, 2.49, 2.84, 3.17, 3.29]
+thicknesses: [0.81, 0.23, 1.37, 1.41, 1.29, 0.95, 1.25, 0.50]
+n_value: 100
+
+Model 8
+model_name: KGB2
+velocities: [1.689, 1.812, 2.049, 1.802, 2.424, 2.207, 2.493, 2.796, 2.924, 3.283]
+thicknesses: [0.238, 0.067, 0.167, 0.043, 0.055, 0.050, 0.065, 0.120, 0.059, 0.135]
+n_value: 100
+
+Model 9
+model_name: Maxwell_2010
+velocities: [4.1, 4.5, 3.0, 4.7]
+thicknesses: [0.55, 0.35, 0.60, 0.60]
+n_value: 100
+
+Model 10
+model_name: Angeles_2022		
+velocities: [1.5, 3.5, 5.5, 6.5]
+thicknesses: [0.15, 0.26, 1.65, 8.9]
+n_value: 100
+
+Model 11
+model_name: Causse2000_1		
+velocities: [1.5, 1.8, 1.9, 2.0, 2.1, 2.2]
+thicknesses: [0.25, 0.40, 0.60, 0.20, 0.50, 0.55]
+n_value: 100
+
+Model 12
+model_name: Causse2000_2		
+velocities: [1.5, 2.0, 2.4, 2.8, 3.2, 3.6]
+thicknesses: [0.25, 0.40, 0.60, 0.20, 0.50, 0.55]
+n_value: 100
+
+Model 13
+model_name: Causse2000_3		
+velocities: [1.5, 1.8, 1.9, 4.6, 2.1, 2.2]
+thicknesses: [0.25, 0.40, 0.60, 0.20, 0.50, 0.55]
+n_value: 100
+
+Model 14
+model_name: Causse2000_4		
+velocities: [1.5, 2.0, 4.599, 2.2, 4.6, 2.4]
+thicknesses: [0.30, 0.80, 0.20, 0.60, 0.20, 0.90]
+n_value: 100
+
+Model 15
+model_name: Random		
+velocities: [1.5, 2.0, 2.4, 3.0, 4.5, 3.0]
+thicknesses: [0.1, 0.9, 0.5, 0.3, 0.45, 0.45]
+n_value: 100
+---------------------------------------------------------
+
